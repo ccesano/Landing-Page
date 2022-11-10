@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 0;
+    background-color: #1f2937;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+}
+.one {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.logo {
+    height: 50px;
+    width: auto;
+    margin-left: 200px;
+}
+.ol{
+    
+    margin-right: 200px;
+}
+.two{
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    gap: 100px;
+}
+.title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 700;
+    margin-left: 200px;
+    
+    
+}
+.para {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-left: 200px;
+    margin-top: 0;
+    
+}
+.bone{
+    background-color: #3882f6;
+    margin-left: 200px;
+}
+.banner{
+    height: 300PX;
+    margin-right: 200px;
+    flex: 0 0 AUTO;
+}
+.title2{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 700;
+    align-items: flex-start;
+}
+.three {
+    text-align: center;
+    background-color: #ffffff;
+    height: 500px;
+    
+}
+.three1{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;    
+}
+.iteml{
+    
+}
+.itemimg {
+    width: 100px;
+    flex: 1 1 auto;
+}
+.four{
+    background-color: #E5E7EB;
+    height: 500px;
+}
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.author{
+    text-align: right;
+    color: #1f2937;
+    margin-right: 200px;
+}
+.five{
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+.fivep{
+    margin-left: 200px;
+}
+.btwo{
+    margin-right: 200px;
+}
+.six{
+    text-align: center;
+}

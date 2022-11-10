@@ -4,6 +4,12 @@
     border: 0px;
     box-sizing: border-box;
 }
+button{
+    background-color: transparent;
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: lighter;
+}
 body{
     margin-top: 0;
     background-color: #1f2937;
@@ -22,15 +28,17 @@ body{
     margin-left: 200px;
 }
 .ol{
-    
+    display: flex;
+    gap: 30px;
     margin-right: 200px;
 }
 .two{
-    height: 500px;
+    
     display: flex;
     justify-content: space-between;
-    
-    align-items: center;
+    margin-top: 110px;
+    margin-bottom: 110px;
+    align-items: flex-start;
     gap: 100px;
 }
 .title {
@@ -49,6 +57,11 @@ body{
     
 }
 .bone{
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 15px;
     background-color: #3882f6;
     margin-left: 200px;
 }
@@ -66,25 +79,35 @@ body{
 .three {
     text-align: center;
     background-color: #ffffff;
-    height: 500px;
-    
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 .three1{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    justify-content: center;    
+    justify-content: center;
+    padding-top: 50px;  
 }
 .iteml{
-    
+    width: 170px;
+    margin: 10px;
+    margin: 30px;
 }
 .itemimg {
-    width: 100px;
+    height: 180px;
+    width: 180px;
     flex: 1 1 auto;
+    border-radius: 10px;
 }
 .four{
     background-color: #E5E7EB;
-    height: 500px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+
 }
 .quote {
     color: #1F2937;
@@ -98,18 +121,45 @@ body{
     text-align: right;
     color: #1f2937;
     margin-right: 200px;
+    font-weight: bold;
 }
 .five{
+    background-color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.five1{
     display: flex;
     justify-content: space-between;
-    height: 500px;
-}
-.fivep{
+    background-color: #3b82f6;
+    margin-right: 200px;
     margin-left: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+.fivep1{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 600;
+}
+.fivep2{
+    color: #ffffff;
+    font-size: 20px;
+    
 }
 .btwo{
-    margin-right: 200px;
+    border: 2px solid #ffffff;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 10%;
 }
 .six{
     text-align: center;
+    color: #ffffff;
+}
+footer{
+    padding: 30px;
 }
